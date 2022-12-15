@@ -37,6 +37,7 @@ p {
 img {
   padding-left: 10px;
   width: 20%;
+  height: auto;
   vertical-align: middle;
 }
   
