@@ -129,6 +129,7 @@ input:invalid {
 @media screen and (max-width: 496px) {
   img {
     width: 80%;
+    height: auto;
   }
 
   li {
