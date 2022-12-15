@@ -41,6 +41,7 @@ img {
 }
   
 a {
+  padding: 6px;
   text-decoration: none;
 }
   
@@ -59,10 +60,6 @@ a:hover {
   max-width: 1000px;
 }
   
-nav.box{
-  display: flex;
-  flex-direction: column;
-}
 
 ul {
   display: flex;
