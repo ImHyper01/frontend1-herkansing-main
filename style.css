@@ -4,7 +4,7 @@ body {
   align-items: center;
   margin: 30px;
   background-color: rgb(7, 7, 7);
-  font-family: "Lucida Sans";
+  font-family: "Calibri";
   font-size: 1rem;
 }
  
@@ -96,7 +96,8 @@ nav{
 
 
 header{
-  color: darkgrey; 
+  color: darkgrey;
+  font-family: "Lucida Sans";
 }
 
 form {
@@ -164,9 +165,12 @@ input:invalid {
 }
 
 body {
+  font-family: "Calibri";
+}
+
+header{
   font-family: "Lucida Sans";
 }
 
-  
 }
 
