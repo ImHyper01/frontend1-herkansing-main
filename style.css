@@ -28,7 +28,6 @@ h1 {
 }
   
 p {
-  padding: 20px;
   padding-bottom: 20px;
   margin-bottom: 0px;
 }
@@ -125,6 +124,8 @@ input:valid {
 input:invalid {
   border-color: red;
 }
+
+
 
 
 @media screen and (max-width: 496px) {
