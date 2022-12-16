@@ -132,5 +132,9 @@ video {
     font-family: "Lucida Sans";
   }
 
+  video{
+    width: 100%;
+  }
+
 }
 
