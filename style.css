@@ -8,11 +8,11 @@ body {
   font-size: 1rem;
 }
  
-nav, ul, section, footer {
+nav, section, footer {
   background-color: rgb(78, 64, 64);;
 }
 
-body, p, a, a:visited, li, li a {
+body, p, a, a:visited {
   color: rgb(228, 200, 187);
 }
 
@@ -61,19 +61,6 @@ a:hover {
 }
   
 
-ul {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  padding: 0;
-  }
-
-li a {
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
 nav{
   padding: 10px;
   margin-bottom: 20px;
@@ -113,7 +100,9 @@ input:invalid {
   border-color: red;
 }
 
-
+video {
+  width: 50%;
+}
 
 
 @media screen and (max-width: 496px) {
@@ -122,21 +111,11 @@ input:invalid {
     height: auto;
   }
 
-  li {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 3px;
-  }
-
- .box {
-  border-style: groove;
- }
-
-  ul {
+  nav {
     display: flex;
     flex-direction: column;
-
-}
+    text-align: center;
+  }
 
   a:hover{
     border-style: none;
@@ -145,21 +124,13 @@ input:invalid {
     text-decoration: none;
 }
 
-  li a {
-    padding: 0px 0px;
-}
+  body {
+    font-family: "Calibri";
+  }
 
-  a{
-    background: none;
-}
-
-body {
-  font-family: "Calibri";
-}
-
-header{
-  font-family: "Lucida Sans";
-}
+  header{
+    font-family: "Lucida Sans";
+  }
 
 }
 
